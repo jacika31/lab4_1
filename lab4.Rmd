@@ -1,0 +1,22 @@
+---
+title: "lab 4"
+author: "Jacika Patel"
+date: "5/24/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+diamonds
+```
+```{r}
+ggplot(diamonds, aes(x=carat, y=price)) + geom_point()
+```
+
